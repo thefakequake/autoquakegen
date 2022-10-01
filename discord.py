@@ -9,7 +9,7 @@ import logging
 logger = logging.getLogger("__main__")
 
 
-class Gateway:
+class Bot:
     def __init__(self, **kwargs):
         self.token = kwargs["token"]
         self.properties = kwargs["properties"]
