@@ -2,8 +2,7 @@ from datetime import datetime, timedelta, time
 from time import sleep
 import os
 import threading
-import secret
-from discord import Gateway
+from discord import Bot
 from image import generate
 from json import load, JSONDecodeError
 import logging
@@ -31,7 +30,7 @@ except FileNotFoundError:
 except JSONDecodeError:
     raise Exception("Could not parse config.json")
 
-bot = Gateway(
+bot = Bot(
     token=config["token"],
     properties=config.get("properties", {}),
     user=config.get("user", False),
