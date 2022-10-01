@@ -1,6 +1,6 @@
 # autoquakegen
 
-An automatic [QuaKe profile picture generator](https://thefakequake.github.io/) that changes a user or bot
+An automatic [QuaKe profile picture generator](https://thefakequake.github.io/) that changes a Discord user or bot
 profile picture once a day, and saves it to a folder.
 
 ## Usage
