@@ -5,6 +5,8 @@ profile picture once a day, and saves it to a folder.
 
 ## Usage
 
+Requires Python 3.10 or higher.
+
 Install dependencies with:
 ```
 pip install -r requirements.txt
